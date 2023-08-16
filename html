@@ -106,3 +106,14 @@ input[type="range"]::-moz-range-track {
   border-radius: 0;
   border: none;
 }
+
+
+div {
+    background-image: url(flowers.jpeg);
+    background-image: -webkit-image-set(
+    url("flowers.avif") type("image/avif"),
+    url("flowers.jpg") type("image/jpeg"));
+    background-image: image-set(
+    url("flowers.avif") type("image/avif"),
+    url("flowers.jpg") type("image/jpeg"));
+} 
