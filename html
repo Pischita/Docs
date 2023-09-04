@@ -117,3 +117,17 @@ div {
     url("flowers.avif") type("image/avif"),
     url("flowers.jpg") type("image/jpeg"));
 } 
+
+
+---------------- Подключение файлов стилей
+  <link rel="stylesheet" href="./base/base.css">
+<link rel="stylesheet" media="(width < 768px)" href="./mobile/mobile.css">
+<link rel="stylesheet" media="(768px <= width < 1024px)" href="./tablet/tablet.css">
+<link rel="stylesheet" media="(width >= 1024px)" href="./desktop/desktop.css">
+
+<link rel="stylesheet" media="(prefers-color-scheme: light)" href="./theme/light/theme-light.css">
+<link rel="stylesheet" media="(prefers-color-scheme: dark)" href="./theme/dark/theme-dark.css">
+<link rel="stylesheet" media="(prefers-reduced-motion: no-preference)" href="./animation/animation.css">
+<link rel="stylesheet" media="(resolution >= 2x)" href="./retina/retina.css">
+<link rel="stylesheet" media="(pointer: course)" href="./touch/touch.css">
+<link rel="stylesheet" media="print" href="./print/print.css"> 
