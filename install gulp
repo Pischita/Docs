@@ -6,3 +6,7 @@ npm i browser-sync --save-dev
 npm i del@6.0.0 --save-dev
 npm i gulp-concat-css --save-dev
 npm i gulp-plumber --save-dev 
+
+
+--------------------------------------------------
+https://github.com/yandex-praktikum/netlify-ci
